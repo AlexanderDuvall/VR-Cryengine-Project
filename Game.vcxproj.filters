@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\Code\StdAfx.cpp" />
+    <ClCompile Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\solutions\win64\Code_uber.cpp">
+      <Filter>UBER FILES</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\solutions\win64\Components_uber.cpp">
+      <Filter>UBER FILES</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPlayerComponent.cpp">
+      <Filter>MyComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="VRMovementComponent.cpp">
+      <Filter>MyComponent</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\Code\GamePlugin.cpp" />
+    <ClInclude Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\Code\GamePlugin.h" />
+    <ClInclude Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\Code\StdAfx.h" />
+    <ClInclude Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\Code\Components\Player.cpp">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\Code\Components\Player.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPlayerComponent.h">
+      <Filter>MyComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="VRMovementComponent.h">
+      <Filter>MyComponent</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\Code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Alex\Documents\CRYENGINE Projects\My Project\solutions\win64\Game.autogen.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Components">
+      <UniqueIdentifier>{FF95846A-17A9-3E07-BF71-EA1BC45A1B14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4A251274-6A07-3D99-AF4E-6E548956EB07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UBER FILES">
+      <UniqueIdentifier>{6F192C11-2B3F-3E96-86C5-069B5EFB36E4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyComponent">
+      <UniqueIdentifier>{f0e51e24-32f7-474e-b4ea-42c4ee260f10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
